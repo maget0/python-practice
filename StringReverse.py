@@ -1,4 +1,7 @@
 def string_reverse(text):
+    """
+    This function takes a String and prints it out in reverse
+    """
     reversed = ""
     #Sets the default valur for reversed text to be empty
     for char in text:

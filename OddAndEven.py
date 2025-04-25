@@ -9,12 +9,15 @@ def checker (num):
         print("Number is odd")
     elif rem==0:
         print("Number is even")
+    else:
+        print("Number is not an integer")
 
 
 checker(5)
 checker(10)
-checker(4)
+checker(4.3)
 checker(0)
+
 
 
 

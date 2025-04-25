@@ -1,4 +1,8 @@
 def factorial(num):
+    """
+    This function takes the number passed as a parameter and
+    calculates its factorial using recursion
+    """
     if num == 1:
         return 1
     #This sets 1 as the base case for the recursion

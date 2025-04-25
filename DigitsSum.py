@@ -1,4 +1,9 @@
 def digits_sum(num):
+    """
+    This function takes a number, converts it into a string, seperates
+    each individual character, converts each character into an integer
+    and adds the integers
+    """
     result = 0
     #Initializes result to 0
     strnum= str(num)
